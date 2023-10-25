@@ -34,7 +34,7 @@ After following the quickstart you'll have learned how to:
 - Install `@clerk/nextjs`
 - Setup your environment keys
 - Wrap your Next.js app in `<ClerkProvider />`
-- Limit access to authenticated users through using Next.js middleware
+- Limit access to authenticated users using Next.js middleware
 - Embed the `<UserButton />`
 
 ## Deploy
