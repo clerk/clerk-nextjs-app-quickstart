@@ -46,7 +46,7 @@ Easily deploy the template to Vercel with the button below. You will need to set
 ## Running the template
 
 ```bash
-git clone https://github.com/clerkinc/clerk-nextjs-pages-quickstart
+git clone https://github.com/clerkinc/clerk-nextjs-app-quickstart
 ```
 
 To run the example locally, you need to:
@@ -79,7 +79,7 @@ Go ahead and create a [pull request](https://github.com/clerkinc/clerk-nextjs-ap
 
 ## Want to leave feedback?
 
-Feel free to create an [issue](https://github.com/clerkinc/clerk-nextjs-app`-quickstart/issues) with the **feedback** label. Our team will take a look at it and get back to you as soon as we can!
+Feel free to create an [issue](https://github.com/clerkinc/clerk-nextjs-app-quickstart/issues) with the **feedback** label. Our team will take a look at it and get back to you as soon as we can!
 
 ## Connect with us
 
