@@ -15,15 +15,17 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <header>
-          <SignedOut>
-            <SignInButton />
-          </SignedOut>
-          <SignedIn>
-            <UserButton />
-          </SignedIn>
-        </header>
-        <main>{children}</main>
+        <body>
+          <header>
+            <SignedOut>
+              <SignInButton />
+            </SignedOut>
+            <SignedIn>
+              <UserButton />
+            </SignedIn>
+          </header>
+          <main>{children}</main>
+        </body>
       </html>
     </ClerkProvider>
   );
