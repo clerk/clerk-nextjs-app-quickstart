@@ -70,16 +70,9 @@ To learn more about Clerk and Next.js, check out the following resources:
 - [Clerk Documentation](https://clerk.com/docs?utm_source=DevRel&utm_medium=docs&utm_campaign=templates&utm_content=10-24-2023&utm_term=clerk-nextjs-app-quickstart)
 - [Next.js Documentation](https://nextjs.org/docs)
 
-## Found an issue?
+## Found an issue or want to leave feedback
 
-If you have found an issue with the quickstart, please create an [issue](https://github.com/clerkinc/clerk-nextjs-app-quickstart/issues).
-
-If it's a quick fix, such as a misspelled word or a broken link, feel free to skip creating an issue.  
-Go ahead and create a [pull request](https://github.com/clerkinc/clerk-nextjs-app-quickstart/pulls) with the solution. :rocket:
-
-## Want to leave feedback?
-
-Feel free to create an [issue](https://github.com/clerkinc/clerk-nextjs-app-quickstart/issues) with the **feedback** label. Our team will take a look at it and get back to you as soon as we can!
+Feel free to create a support thread on our [Discord](https://clerk.com/discord). Our support team will be happy to assist you in the `#support` channel.
 
 ## Connect with us
 
