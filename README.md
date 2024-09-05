@@ -32,10 +32,9 @@ Clerk is a developer-first authentication and user management solution. It provi
 After following the quickstart you'll have learned how to:
 
 - Install `@clerk/nextjs`
-- Setup your environment keys
-- Wrap your Next.js app in `<ClerkProvider />`
-- Limit access to authenticated users using Next.js middleware
-- Embed the `<UserButton />`
+- Set your Clerk API keys
+- Add Clerk's middleware
+- Add `<ClerkProvider />` and Clerk components
 
 ## Deploy
 
