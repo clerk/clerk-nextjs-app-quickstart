@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^5.0.1",
-    "next": "14.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@clerk/nextjs": "^5.4.1",
+    "next": "14.2.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/node": "latest",
@@ -20,7 +20,7 @@
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
     "eslint": "latest",
-    "eslint-config-next": "14.2.0",
+    "eslint-config-next": "14.2.8",
     "postcss": "latest",
     "tailwindcss": "latest",
     "typescript": "latest"
