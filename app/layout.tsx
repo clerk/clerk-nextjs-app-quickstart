@@ -20,12 +20,10 @@ export default function RootLayout({
             <SignedOut>
               <SignInButton />
             </SignedOut>
-
             <SignedIn>
               <UserButton />
             </SignedIn>
           </header>
-
           <main>{children}</main>
         </body>
       </html>

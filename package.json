@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^5.4.1",
+    "@clerk/themes": "^2.1.30",
     "expo-secure-store": "^13.0.2",
     "next": "14.2.8",
     "react": "^18.3.1",
