@@ -56,7 +56,7 @@ To run the example locally, you need to:
 
 3. Set the required Clerk environment variables as shown in [the example `env.local.example` file](./.env.local.example).
 
-4. `npm install --force` the required dependencies. Use `--force` to bypass dependency conflicts between `React` and `Next` due to the upcoming `React` 19 release, which may cause compatibility issues until officially supported by both libraries.
+4. `npm install` the required dependencies. You may need to use `--force` to handle dependency issues from the React release candidate.
 
 5. `npm run dev` to launch the development server.
 
