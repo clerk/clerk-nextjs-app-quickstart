@@ -9,8 +9,8 @@
 </p>
 <div align="center">
   <h1>
-    Clerk and Next.js App Router Quickstart 
-  </h1>  
+    Clerk and Next.js App Router Quickstart
+  </h1>
   <a href="https://www.npmjs.com/package/@clerk/clerk-js">
     <img alt="Downloads" src="https://img.shields.io/npm/dm/@clerk/clerk-js" />
   </a>
@@ -19,7 +19,7 @@
   </a>
   <a href="https://twitter.com/clerkdev">
     <img alt="Twitter" src="https://img.shields.io/twitter/url.svg?label=%40clerkdev&style=social&url=https%3A%2F%2Ftwitter.com%2Fclerkdev" />
-  </a> 
+  </a>
   <br />
   <br />
   <img alt="Clerk Hero Image" src="./public/hero.png">
@@ -32,9 +32,9 @@ Clerk is a developer-first authentication and user management solution. It provi
 After following the quickstart you'll have learned how to:
 
 - Install `@clerk/nextjs`
-- Set your Clerk API keys
-- Add Clerk's middleware
+- Add `clerkMiddleware()`
 - Add `<ClerkProvider />` and Clerk components
+- Create your first user
 
 ## Deploy
 
@@ -50,15 +50,9 @@ git clone https://github.com/clerk/clerk-nextjs-app-quickstart
 
 To run the example locally, you need to:
 
-1. Sign up for a Clerk account at [https://clerk.com](https://dashboard.clerk.com/sign-up?utm_source=DevRel&utm_medium=docs&utm_campaign=templates&utm_content=clerk-nextjs-app-quickstart).
-
-2. Go to the [Clerk dashboard](https://dashboard.clerk.com?utm_source=DevRel&utm_medium=docs&utm_campaign=templates&utm_content=clerk-nextjs-app-quickstart) and create an application.
-
-3. Set the required Clerk environment variables as shown in [the example `env.local.example` file](./.env.local.example).
-
-4. `npm install` the required dependencies. You may need to use `--force` to handle dependency issues from the React release candidate.
-
-5. `npm run dev` to launch the development server.
+1. `npm install` the required dependencies. You may need to use `--force` to handle dependency issues from the React release candidate.
+1. `npm run dev` to launch the development server.
+1. Select the "Sign in" button in the top-right corner of the app's homepage.
 
 ## Learn more
 
