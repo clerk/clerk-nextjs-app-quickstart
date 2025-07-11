@@ -1,0 +1,60 @@
+import { UserButton } from "@clerk/nextjs";
+import { auth } from "@clerk/nextjs/server";
+import { ClerkLogo } from "../components/clerk-logo";
+import Link from "next/link";
+import { CodeSwitcher } from "../components/code-switcher";
+import { UserDetails } from "../components/user-details";
+
+export default async function Page() {
+  await auth.protect();
+
+  return (
+    <>
+      <main className="max-w-[75rem] w-full mx-auto">
+        <div className="grid grid-cols-[1fr_20.5rem] gap-10 pb-10">
+          <div>
+            <header className="flex items-center justify-between w-full h-16 gap-4">
+              <div className="flex gap-4">
+                <div className="bg-[#F4F4F5] px-4 py-3 rounded-full inline-flex gap-4">
+                  <ClerkLogo />
+                </div>
+                <Link
+                  href="/"
+                  className="flex items-center gap-2 font-medium text-[0.8125rem] rounded-full px-3 py-2 hover:bg-gray-100"
+                >
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M15 19l-7-7 7-7"
+                    />
+                  </svg>
+                  Back to Home
+                </Link>
+              </div>
+              <div className="flex items-center gap-2">
+                <UserButton
+                  appearance={{
+                    elements: {
+                      userButtonAvatarBox: "size-8",
+                    },
+                  }}
+                />
+              </div>
+            </header>
+            <UserDetails />
+          </div>
+          <div className="flex flex-col">
+            <CodeSwitcher />
+          </div>
+        </div>
+      </main>
+    </>
+  );
+}
