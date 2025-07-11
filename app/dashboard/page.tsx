@@ -5,7 +5,7 @@ import Link from "next/link";
 import { CodeSwitcher } from "../components/code-switcher";
 import { UserDetails } from "../components/user-details";
 
-export default async function DashboardPage() {
+export default async function Page() {
   await auth.protect();
 
   return (
