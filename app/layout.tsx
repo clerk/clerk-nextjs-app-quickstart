@@ -24,9 +24,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <ClerkProvider appearance={{
-      cssLayerName: 'clerk'
-    }}>
+    <ClerkProvider>
       <html lang="en">
         <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
           <header className="flex justify-end items-center p-4 gap-4 h-16">
@@ -36,6 +34,7 @@ export default function RootLayout({
             </SignedOut>
             <SignedIn>
               <UserButton />
+              hello
             </SignedIn>
           </header>
           {children}
