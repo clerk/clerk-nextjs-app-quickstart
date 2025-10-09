@@ -2,16 +2,17 @@
 
 import { useState } from 'react'
 import { useSignUp } from '@clerk/nextjs'
-import { redirect } from 'next/navigation'
+import { useRouter } from 'next/navigation'
 
 export default function Page() {
+  const router = useRouter()
   // Use `useSignUp()` hook to access the `SignUp` object
   // `missing_requirements` and `missingFields` are only available on the `SignUp` object
   const { isLoaded, signUp, setActive } = useSignUp()
   const [formData, setFormData] = useState<Record<string, string>>({})
 
   if (!isLoaded) return <div>Loading…</div>
-  if (!signUp.id) redirect('/sign-in')
+  if (!signUp.id) router.push('/sign-in')
 
   const status = signUp?.status
   const missingFields = signUp?.missingFields ?? []
@@ -33,11 +34,11 @@ export default function Page() {
               // Check for tasks and navigate to custom UI to help users resolve them
               // See https://clerk.com/docs/guides/development/custom-flows/overview#session-tasks
               console.log(session?.currentTask)
-              redirect('/sign-in/tasks')
+              router.push('/sign-in/tasks')
               return
             }
 
-            redirect('/')
+            router.push('/')
           },
         })
       }
