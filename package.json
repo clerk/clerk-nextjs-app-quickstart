@@ -9,21 +9,21 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@clerk/nextjs": "^6.31.9",
-    "next": "15.5.2",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "@clerk/nextjs": "^6.34.0",
+    "next": "16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
-    "@tailwindcss/postcss": "^4.1.13",
+    "@tailwindcss/postcss": "^4.1.16",
     "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9.37.0",
-    "eslint-config-next": "15.5.5",
+    "eslint": "^9.38.0",
+    "eslint-config-next": "16.0.0",
     "postcss": "^8",
-    "tailwindcss": "^4.1.13",
+    "tailwindcss": "^4.1.16",
     "typescript": "^5"
   }
 }
