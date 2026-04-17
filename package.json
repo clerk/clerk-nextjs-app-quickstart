@@ -9,7 +9,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@clerk/nextjs": "^7.0.7",
+    "@clerk/nextjs": "^6.39.2",
     "next": "^16.0.7",
     "react": "^19.2.1",
     "react-dom": "^19.2.1"
