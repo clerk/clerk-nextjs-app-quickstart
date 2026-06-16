@@ -14,11 +14,11 @@
   <a href="https://www.npmjs.com/package/@clerk/clerk-js">
     <img alt="Downloads" src="https://img.shields.io/npm/dm/@clerk/clerk-js" />
   </a>
-  <a href="https://discord.com/invite/b5rXHjAg7A">
+  <a href="https://clerk.com/discord">
     <img alt="Discord" src="https://img.shields.io/discord/856971667393609759?color=7389D8&label&logo=discord&logoColor=ffffff" />
   </a>
-  <a href="https://twitter.com/clerkdev">
-    <img alt="Twitter" src="https://img.shields.io/twitter/url.svg?label=%40clerkdev&style=social&url=https%3A%2F%2Ftwitter.com%2Fclerkdev" />
+  <a href="https://x.com/clerk">
+    <img alt="Follow on X" src="https://img.shields.io/twitter/url.svg?label=%40clerk&style=social&url=https%3A%2F%2Fx.com%2Fclerk" />
   </a>
   <br />
   <br />
@@ -50,8 +50,8 @@ git clone https://github.com/clerk/clerk-nextjs-app-quickstart
 
 To run the example locally, you need to:
 
-1. `npm install` the required dependencies. You may need to use `--force` to handle dependency issues from the React release candidate.
-1. `npm run dev` to launch the development server.
+1. `pnpm install` the required dependencies. You may need to use `--force` to handle dependency issues from the React release candidate.
+1. `pnpm run dev` to launch the development server.
 1. Select the "Sign in" button in the top-right corner of the app's homepage.
 
 ## Learn more
@@ -65,10 +65,10 @@ To learn more about Clerk and Next.js, check out the following resources:
 
 ## Found an issue or want to leave feedback
 
-Feel free to create a support thread on our [Discord](https://clerk.com/discord). Our support team will be happy to assist you in the `#support` channel.
+[Contact](https://clerk.com/contact/support) or email [support@clerk.com](mailto:support@clerk.com) us for support.
 
 ## Connect with us
 
-You can discuss ideas, ask questions, and meet others from the community in our [Discord](https://discord.com/invite/b5rXHjAg7A).
+You can discuss ideas and meet others from the community in our [Discord](https://clerk.com/discord).
 
-If you prefer, you can also find support through our [Twitter](https://twitter.com/ClerkDev), or you can [email](mailto:support@clerk.dev) us!
+You can also follow [@clerk on X](https://x.com/clerk) for updates.
