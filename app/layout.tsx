@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import { ClerkProvider, SignInButton, SignUpButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
 import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
@@ -35,6 +36,7 @@ export default function RootLayout({
               <SignUpButton />
             </SignedOut>
             <SignedIn>
+              <Link href="/protected">Protected</Link>
               <UserButton />
             </SignedIn>
           </header>
