@@ -1,1 +1,9 @@
 minimumReleaseAge: 2880
+
+packages:
+  - .
+
+# If project is monorepo, you can specify the packages to include in the workspace. For example:
+# packages:
+#   - packages/*
+#   - apps/*
