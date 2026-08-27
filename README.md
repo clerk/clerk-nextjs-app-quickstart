@@ -51,6 +51,8 @@ git clone https://github.com/clerk/clerk-nextjs-app-quickstart
 To run the example locally, you need to:
 
 1. `pnpm install` the required dependencies.
+1. Run `npx -y clerk@latest init`. If you're signed out, the CLI provisions an accountless application and writes
+   temporary development keys to `.env.local`; you can sign in later to claim it.
 1. `pnpm run dev` to launch the development server.
 1. Select the "Sign in" button in the top-right corner of the app's homepage.
 
